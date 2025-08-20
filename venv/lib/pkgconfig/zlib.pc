@@ -1,0 +1,13 @@
+prefix=/workspaces/DSA_with_python/venv
+exec_prefix=/workspaces/DSA_with_python/venv
+libdir=/workspaces/DSA_with_python/venv/lib
+sharedlibdir=/workspaces/DSA_with_python/venv/lib
+includedir=/workspaces/DSA_with_python/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
